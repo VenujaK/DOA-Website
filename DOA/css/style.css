@@ -1,0 +1,333 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../image/green-tea-bud-leaves-green-tea-plantations-morning.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+}
+
+.home .content {
+    text-align: center;
+    width: 60rem;
+}
+
+.home .content h3 {
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.home .content h3 span {
+    color: var(--green);
+}
+
+.home .content p {
+    color: white;
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.home2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../image/tractor-cultivating-field\ \(1\).jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+}
+
+.home2 .content {
+    text-align: center;
+    width: 60rem;
+}
+
+.home2 .content h3 {
+    color: white;
+    font-size: 3rem;
+    box-shadow: 5px 5px 20px rgba(4, 4, 4, 0.219);
+}
+
+.home2 .content h3 span {
+    color: var(--green);
+}
+
+.home2 .content p {
+    color: white;
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.Services .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.Services .box-container .box {
+    padding: 3rem 2rem;
+    background: #fff;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border: #21b90d solid 5px;
+    border-radius: 8px;
+}
+
+.Services .box-container .box:hover {
+    transform: translateY(-3px);
+    outline-offset: 0rem;
+}
+
+.Services .box-container .box img {
+    margin: 1rem 0;
+    height: 15rem;
+}
+
+.Services .box-container .box h3 {
+    font-size: 2.5rem;
+    line-height: 1.8;
+    color: var(--black);
+}
+
+.Services .box-container .box p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+
+.products .product-slider {
+    padding: 1rem;
+}
+
+.products .product-slider:first-child {
+    margin-bottom: 2rem;
+}
+
+.products .product-slider .box {
+    background: #fff;
+    border: #21b90d solid 5px;
+    border-radius: 8px;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+}
+
+.products .product-slider .box:hover {
+    outline-offset: 0rem;
+    transform: translateY(-3px);
+}
+
+.products .product-slider .box img {
+    height: 20rem;
+}
+
+.products .product-slider .box h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.products .product-slider .box .price {
+    font-size: 2rem;
+    color: var(--light-color);
+    padding: .5rem 0;
+}
+
+.products .product-slider .box .stars i {
+    font-size: 1.7rem;
+    color: var(--orange);
+    padding: .5rem 0;
+}
+
+.review .review-slider {
+    padding: 1rem;
+}
+
+.review .review-slider .box {
+    background: #fff;
+    border: #21b90d solid 5px;
+    border-radius: 8px;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+    max-width: 300px;
+    margin-right: 29px;
+}
+
+.review .review-slider .box:hover {
+    transform: translateY(-3px);
+    outline-offset: 0rem;
+}
+
+.review .review-slider .box img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.review .review-slider .box p {
+    padding: 1rem 0;
+    line-height: 1.8;
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+.review .review-slider .box h3 {
+    padding-bottom: .5rem;
+    color: var(--black);
+    font-size: 2.2rem;
+}
+
+.review .review-slider .box .stars i {
+    color: var(--orange);
+    font-size: 1.7rem;
+}
+
+.footer {
+    background: #fff;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box h3 i {
+    color: var(--orange);
+}
+
+.footer .box-container .box .links {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .links i {
+    color: var(--orange);
+    padding-right: .5rem;
+}
+
+.footer .box-container .box .links:hover i {
+    padding-right: 2rem;
+}
+
+.footer .box-container .box p {
+    line-height: 1.8;
+    font-size: 1.5rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .share a {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    color: var(--black);
+    margin-right: .2rem;
+    background: #eee;
+    text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+    background: var(--orange);
+    color: #fff;
+}
+
+.footer .box-container .box .email {
+    width: 100%;
+    margin: .7rem 0;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+}
+
+.footer .box-container .box .payment-img {
+    margin-top: 2rem;
+    height: 3rem;
+    display: block;
+}
+
+
+/* media queries  */
+
+@media (max-width:991px) {
+    html {
+        font-size: 55%;
+    }
+    .header {
+        padding: 2rem;
+    }
+    section {
+        padding: 2rem;
+    }
+}
+
+@media (max-width:768px) {
+    #menu-btn {
+        display: inline-block;
+    }
+    .header .search-form {
+        width: 90%;
+    }
+    .header .navbar {
+        position: absolute;
+        top: 110%;
+        right: -110%;
+        width: 30rem;
+        box-shadow: var(--box-shadow);
+        border-radius: .5rem;
+        background: #fff;
+    }
+    .header .navbar.active {
+        right: 2rem;
+        transition: .4s linear;
+    }
+    .header .navbar a {
+        font-size: 2rem;
+        margin: 2rem 2.5rem;
+        display: block;
+    }
+}
+
+@media (max-width:450px) {
+    html {
+        font-size: 50%;
+    }
+    .heading {
+        font-size: 2.5rem;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer .box-container .box .payment-img {
+        margin: 2rem auto;
+    }
+}

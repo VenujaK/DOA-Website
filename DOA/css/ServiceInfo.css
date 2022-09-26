@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.about-section {
+    background: url(../image/strawberry-field.jpg) no-repeat left;
+    background-size: 100%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+    margin-top: -70px;
+}
+
+.inner-container {
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+    position: relative;
+    bottom: 200px;
+    border-radius: 12px;
+}
+
+.inner-container h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    bottom: 120px;
+}
+
+.text {
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    position: relative;
+    bottom: 120px;
+}
+
+.register {
+    padding-left: 200px;
+}
+
+.form1 {
+    padding-top: 80px;
+}
+
+.form1 h1 {
+    color: white;
+}
+
+.form1 label {
+    color: white;
+    font-weight: 600;
+}
+
+.form1 .regtext {
+    margin-bottom: 20px;
+    border: none;
+    height: 25px;
+    width: 20%;
+    border-radius: 8px;
+    padding-left: 5px;
+}
+
+.qtext {
+    position: relative;
+    bottom: 100px;
+    width: 450px;
+    height: 120px;
+    border-radius: 8px;
+    border: green solid 5px;
+}
+
+@media screen and (max-width:1200px) {
+    .inner-container {
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .about-section {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about-section {
+        padding: 0;
+    }
+    .inner-container {
+        padding: 60px;
+    }
+}

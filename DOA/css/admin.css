@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    /* border: 2px solid red; */
+    font-family: arial;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(4, 4, 4, 0.219);
+}
+
+h2 {
+    text-align: center;
+}
+
+.container div {
+    text-align: center;
+}
+
+input {
+    width: 250px;
+    padding: 5px;
+}
+
+button {
+    width: 70px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #21b90d;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.service {
+    width: 100%;
+}
+
+.tblservice {
+    width: 60%;
+    justify-content: center;
+    border: green 4px solid;
+    border-radius: 12px;
+}
+
+.tblservice th {
+    background-color: rgb(4, 141, 9);
+    font-size: 120%;
+    font-weight: 700;
+    height: 50px;
+}
+
+.tblservice td {
+    font-size: 120%;
+    font-weight: 700;
+    margin-top: 80px;
+    background-color: rgb(255, 255, 255);
+}
